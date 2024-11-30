@@ -3,55 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sagar's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Sagar SP - Game Developer & Unity Asset Creator</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 </head>
-<body>
-    <header>
-        <div class="container">
-            <h1>Sagar's Portfolio</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="terms.html">Terms</a></li>
-                    <li><a href="privacy.html">Privacy</a></li>
-                </ul>
-            </nav>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-7">
+                    <div>
+                        <a href="#" class="flex items-center py-4 px-2">
+                            <span class="font-semibold text-gray-500 text-lg">Sagar SP</span>
+                        </a>
+                    </div>
+                    <div class="hidden md:flex items-center space-x-1">
+                        <a href="#games" class="py-4 px-2 text-gray-500 hover:text-green-500 transition duration-300">Games</a>
+                        <a href="#assets" class="py-4 px-2 text-gray-500 hover:text-green-500 transition duration-300">Unity Assets</a>
+                        <a href="#contact" class="py-4 px-2 text-gray-500 hover:text-green-500 transition duration-300">Contact</a>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-3">
+                    <a href="https://play.google.com/store/apps/developer?id=Sagar+Sp" target="_blank" class="text-gray-500 hover:text-green-500">
+                        <i data-feather="play"></i>
+                    </a>
+                    <a href="https://www.udemy.com/user/sagar-527/" target="_blank" class="text-gray-500 hover:text-green-500">
+                        <i data-feather="book"></i>
+                    </a>
+                </div>
+            </div>
         </div>
-    </header>
+    </nav>
 
-    <section id="about" class="section">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Hello! I'm Sagar. I create engaging Unity games, Unity assets, and educational content for aspiring developers.</p>
-            <p>Check out my courses on <a href="https://www.udemy.com/user/sagar-527/" target="_blank">Udemy</a> and my games on <a href="https://play.google.com/store/apps/developer?id=Sagar+Sp" target="_blank">Google Play</a>.</p>
-        </div>
-    </section>
+    <div class="container mx-auto px-4 mt-10">
+        <section id="hero" class="text-center">
+            <h1 class="text-4xl font-bold text-gray-800 mb-4">Game Developer & Unity Asset Creator</h1>
+            <p class="text-xl text-gray-600 mb-8">Creating innovative games and tools for developers worldwide</p>
+        </section>
 
-    <section id="projects" class="section">
-        <div class="container">
-            <h2>My Projects</h2>
-            <ul>
-                <li><a href="https://drive.google.com/file/d/1KMGJNQpIQjSOMu-XQiVNtv2guPej94K1/view" target="_blank">Unity Backup Tool Documentation</a></li>
-                <li><a href="https://www.udemy.com/user/sagar-527/" target="_blank">Udemy Courses</a></li>
-                <li><a href="https://play.google.com/store/apps/developer?id=Sagar+Sp" target="_blank">Google Play Games</a></li>
-            </ul>
-        </div>
-    </section>
+        <section id="games" class="mt-16">
+            <h2 class="text-3xl font-semibold text-center mb-8">My Games</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Game entries will be dynamically populated -->
+                <div class="bg-white p-6 rounded-lg shadow-md text-center">
+                    <h3 class="text-xl font-semibold mb-4">Backup Tool</h3>
+                    <p class="text-gray-600">A comprehensive backup solution for Unity developers</p>
+                    <a href="https://drive.google.com/file/d/1KMGJNQpIQjSOMu-XQiVNtv2guPej94K1/view" target="_blank" class="mt-4 inline-block bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600">View Docs</a>
+                </div>
+                <!-- More games can be added here -->
+            </div>
+        </section>
 
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contact Me</h2>
-            <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-        </div>
-    </section>
+        <section id="assets" class="mt-16">
+            <h2 class="text-3xl font-semibold text-center mb-8">Unity Asset Marketplace</h2>
+            <div class="text-center">
+                <p class="text-gray-600">Creating tools and assets to empower game developers</p>
+            </div>
+        </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Sagar. All rights reserved.</p>
-        </div>
-    </footer>
+        <section id="contact" class="mt-16 bg-white p-8 rounded-lg shadow-md">
+            <h2 class="text-3xl font-semibold text-center mb-8">Contact Me</h2>
+            <form class="max-w-lg mx-auto">
+                <div class="mb-4">
+                    <input type="text" placeholder="Your Name" class="w-full p-3 border rounded">
+                </div>
+                <div class="mb-4">
+                    <input type="email" placeholder="Your Email" class="w-full p-3 border rounded">
+                </div>
+                <div class="mb-4">
+                    <textarea placeholder="Your Message" class="w-full p-3 border rounded" rows="4"></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="bg-green-500 text-white px-6 py-3 rounded hover:bg-green-600">Send Message</button>
+                </div>
+            </form>
+        </section>
+
+        <footer class="mt-16 text-center">
+            <div class="mb-4">
+                <a href="terms.html" class="text-gray-500 mx-2 hover:text-green-500">Terms of Service</a>
+                <a href="privacy.html" class="text-gray-500 mx-2 hover:text-green-500">Privacy Policy</a>
+            </div>
+            <p class="text-gray-600">&copy; 2024 Sagar SP. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        feather.replace();
+    </script>
 </body>
 </html>
