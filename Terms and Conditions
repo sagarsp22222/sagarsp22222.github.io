@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - Sagar SP</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+    <div class="container mx-auto px-4 py-10">
+        <h1 class="text-4xl font-bold text-center mb-10">Terms of Service</h1>
+        
+        <div class="max-w-3xl mx-auto bg-white p-8 rounded-lg shadow-md">
+            <section class="mb-6">
+                <h2 class="text-2xl font-semibold mb-4">1. Acceptance of Terms</h2>
+                <p>By accessing this website and using the services provided by Sagar SP, you agree to be bound by these Terms of Service.</p>
+            </section>
+
+            <section class="mb-6">
+                <h2 class="text-2xl font-semibold mb-4">2. Use of Services</h2>
+                <p>Our services include game development, Unity asset creation, and documentation. Users are granted a non-exclusive, non-transferable license to use these services as intended.</p>
+            </section>
+
+            <section class="mb-6">
+                <h2 class="text-2xl font-semibold mb-4">3. Intellectual Property</h2>
+                <p>All content, including games, assets, and documentation, are the intellectual property of Sagar SP and protected by copyright laws.</p>
+            </section>
+
+            <section class="mb-6">
+                <h2 class="text-2xl font-semibold mb-4">4. Limitation of Liability</h2>
+                <p>Sagar SP is not liable for any direct, indirect, incidental, or consequential damages arising from the use of our services or products.</p>
+            </section>
+
+            <section class="mb-6">
+                <h2 class="text-2xl font-semibold mb-4">5. Modifications</h2>
+                <p>We reserve the right to modify these terms at any time. Continued use of our services constitutes acceptance of any changes.</p>
+            </section>
+
+            <div class="text-center mt-10">
+                <a href="index.html" class="bg-green-500 text-white px-6 py-3 rounded hover:bg-green-600">Back to Homepage</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
